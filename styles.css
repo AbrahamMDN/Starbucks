@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.barra-navegación
+{
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    flex-direction: row;
+    background: white;
+    margin: 15px;
+}
+
+.menu-rewards
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 185px;
+    margin-right: 445px;
+}
+
+.tienda-acceso
+{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#LogoSB 
+{
+    width: 100px;
+    height: 50px;
+    margin-right: 35px;
+}
+
+#ubi
+{
+    width: 20px;
+    height: 20px;
+}
+
+#text-right
+{
+    margin-right: 30px;
+}
+
+#text-left
+{
+    margin-right: 30px;
+}
+
+img
+{
+    width: 700px;
+    height: 400px;
+}
+
+.left-images
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.right-images
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+h2
+{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+p
+{
+   
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#Latte
+{
+    background-color: #405f51;
+}
+
+.Promo-1
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #405f51;
+    justify-content: center;
+    padding: 100px;
+}
+
+#Favoritos
+{
+    background-color: #003eaa;
+}
+
+.Promo-2
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #003eaa;
+    justify-content: center;
+    padding: 60px;
+}
+
+#Christmas
+{
+    background-color: #aa0941;
+}
+
+.Promo-3
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #aa0941;
+    justify-content: center;
+    padding: 60px;
+}
+
+#Recompensas
+{
+    background-color: #405f51;
+}
+
+.Promo-4
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #405f51;
+    justify-content: center;
+    padding: 85px;
+}
+
+#Vasos
+{
+    background-color: #aa0941;
+}
+
+.Promo-5
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #aa0941;
+    justify-content: center;
+    padding: 90px;
+}
+
+a
+{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+a:hover
+{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    color: #03341f;
+    border: none;
+    border-radius: 5px;
+}
+
+#login-button
+{
+    background-color: white;
+    border: 5;
+    border-color: black;
+    width: 5vw;
+    height: 4vh;
+    margin-right: 30px;
+    border-radius: 50px;
+}
+
+#login-button:hover
+{
+    background-color: rgba(192, 169, 169, 0.564);
+    border: 5;
+    border-color: black;
+    width: 5vw;
+    height: 4vh;
+    margin-right: 30px;
+    border-radius: 50px;
+}
+
+#register-button
+{
+    background-color: rgba(23, 17, 17, 0.881);
+    width: 5vw;
+    height: 4vh;
+    margin: auto;
+    border-radius: 50px;
+}
+
+#register-button:hover
+{
+    background-color: rgba(5, 3, 37, 0.729);
+    width: 5vw;
+    height: 4vh;
+    margin: auto;
+    border-radius: 50px;
+}
+
+#vasos-button
+{
+    background-color: #aa0941;
+    color: white;
+    border: 5;
+    border-color: white;
+    width: 6vw;
+    height: 5vh;
+    margin: auto;
+    border-radius: 50px;
+}
+
+#vasos-button:hover
+{
+    background-color: rgba(229, 142, 184, 0.6);
+    color: white;
+    border: 5;
+    border-color: white;
+    width: 6vw;
+    height: 5vh;
+    margin: auto;
+    border-radius: 50px;
+}
+
+#únete-link
+{
+    color: white;
+}
+
+#conoce-link
+{
+    color: white;
+}
