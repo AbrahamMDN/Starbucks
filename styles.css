@@ -98,6 +98,44 @@ nav img
     flex-direction: row-reverse;
 }
 
+.container2
+{
+    width: 75vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom:30px ;  
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.container2 img
+{
+    width: 36.5vw;
+    height: auto;
+}
+
+#sub-container1{
+    text-align: center;
+    font-size: 13.8px;
+    color: #d50032;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(246, 191, 217);
+    height: 40vw;
+}
+
+#sub-container2{
+    text-align: center;
+    font-size: 13.8px;
+    color: #04204b;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(152, 205, 228);
+    height: 40vw;
+}
+
 a
 {
     font-family: sans-serif;
@@ -182,6 +220,24 @@ a:hover
     border-radius: 50px;
 }
 
+#Noticias-button{
+    background-color: rgb(246, 191, 217);
+    border-color: #d50032;
+    width: 4vw;
+    height: 3vh;
+    margin: auto;
+    border-radius: 50px;
+}
+
+#TyC-button{
+    background-color: rgb(152, 205, 228);
+    border-color: #04204b;
+    width: 6vw;
+    height: 3vh;
+    margin: auto;
+    border-radius: 50px;
+}
+
 #únete-link
 {
     color: white;
@@ -190,4 +246,14 @@ a:hover
 #conoce-link
 {
     color: white;
+}
+
+#Aquí-link
+{
+    color: #d50032;
+}
+
+#Ver-mas-link
+{
+    color: #04204b;
 }
