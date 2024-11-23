@@ -141,7 +141,7 @@ nav img
     height: auto;
     display: flex;
     flex-direction: row;
-    margin-bottom:30px ;  
+    margin-bottom:50px ;  
     justify-content:left;
     align-items: left;
 }
@@ -151,6 +151,8 @@ nav img
     flex-direction: row;
     width: 75vw;
     justify-content:center;
+    margin-bottom:30px ;
+    align-items: center;
 }
 
 .Redes-Sociales img{
@@ -162,6 +164,15 @@ nav img
     width: 45%;
 }
  
+.Avisos{
+    display: flex;
+    flex-direction: row;
+    width: 75vw;
+    justify-content: center;
+    margin-bottom:30px ; 
+    align-items: center;
+}
+
 a
 {
     font-family: sans-serif;
@@ -305,4 +316,20 @@ h3{
     font-weight: 550;
     font-family: sans-serif;
     color: black;  
+}
+
+.Avisos a{
+    font-weight: 100;
+    color: gray;
+    margin: 1%
+}
+
+.Avisos p{
+    color: gray;
+}
+
+.Avisos a:hover{
+    font-weight: 100;
+    color: rgba(21, 2, 2, 0.484);
+    margin: 1%
 }
