@@ -146,6 +146,22 @@ nav img
     align-items: left;
 }
 
+.Redes-Sociales{
+    display: flex;
+    flex-direction: row;
+    width: 75vw;
+    justify-content:center;
+}
+
+.Redes-Sociales img{
+    width: 10%;
+    margin-left: 50%;
+}
+
+#X-Logo{
+    width: 45%;
+}
+ 
 a
 {
     font-family: sans-serif;
