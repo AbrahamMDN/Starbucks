@@ -136,6 +136,16 @@ nav img
     height: 40vw;
 }
 
+.container3{
+    width: 75vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom:30px ;  
+    justify-content:left;
+    align-items: left;
+}
+
 a
 {
     font-family: sans-serif;
@@ -256,4 +266,27 @@ a:hover
 #Ver-mas-link
 {
     color: #04204b;
+}
+
+ul{
+    list-style: none;
+}
+
+h3{
+    margin-left: 21%;
+    font-size: 105%;
+    font-weight: 500;
+}
+
+.container3 a{
+    font-weight: 550;
+    font-family: sans-serif;
+    color: gray;
+    text-decoration: none;  
+}
+
+.container3 a:hover{
+    font-weight: 550;
+    font-family: sans-serif;
+    color: black;  
 }
