@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Redressed&family=Varela+Round&display=swap');
 
 body{
     display:flex;
@@ -6,7 +6,7 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 15px;
-    font-family: "Poppins", sans-serif;
+    font-family: Poppins, sans-serif;
 }
 
 .navbar
@@ -15,6 +15,7 @@ body{
     flex-direction: row;
     background: white;
     margin-bottom: 10px;
+    box-shadow: -6px 0px -5px 5px rgba(0, 0, 0, 0.3);
 }    
 
 .linea-horizontalt{
@@ -31,6 +32,7 @@ body{
     align-items: center;
     margin-right: 35vw;
     font-size: 14px;
+    font-family: Poppins, sans-serif;
 }
 
 .tienda-acceso
@@ -57,6 +59,7 @@ nav img
 #text-right
 {
     margin-right: 15px;
+    font-weight: bold;
 }
 
 #text-left
@@ -90,6 +93,7 @@ nav img
 
 #container-green{
     background-color: #1e3932;
+    box-shadow: 0px -6px 5px -5px rgba(0, 0, 0, 0.3);
 }
 
 #container-blue{
@@ -450,4 +454,37 @@ h3{
     margin-left: 10%;
     color: gray;
     margin-top: 0%;
+}
+
+.container2-RW
+{
+    width: 75vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom:30px ;  
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#sub-container1-RW{
+    text-align: center;
+    font-size: 13.8px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(0deg, rgb(29, 57, 50) 0%, rgb(10, 105, 75) 100%);
+    height: 40vw;
+}
+
+#sub-container2-RW{
+    text-align: center;
+    font-size: 13.8px;
+    color: #04204b;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 40vw;
+    width: 80%;
 }
