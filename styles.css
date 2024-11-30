@@ -541,7 +541,7 @@ h3{
 }
 
 .container-IMG-1{
-    width: calc(100vw - 35vw);
+    width: calc(100vw - 30vw);
     justify-content: center;
 }
 
@@ -555,8 +555,86 @@ h3{
 .Redes-Sociales-RW{
     display: flex;
     flex-direction: row;
-    width: calc(100vw - 25vw);
+    width: calc(100vw - 30vw);
     justify-content:center;
     margin-bottom:30px ;
     align-items: center;
+}
+
+.Avisos-RW{
+    display: flex;
+    flex-direction: row;
+    width: calc(100vw - 30vw);
+    justify-content: center;
+    margin-bottom:30px ; 
+    align-items: center;
+}
+
+.Avisos-RW a{
+    font-weight: 100;
+    color: gray;
+    margin: 1%
+}
+
+.Avisos-RW p{
+    color: gray;
+}
+
+#footer1-RW{
+    font-size: 10px;
+    color: gray;
+    width: calc(100vw - 30vw);
+}
+
+.footer-RW{
+    width: calc(100vw - 50vw);
+    margin: 0;
+}
+
+.container3-RW a{
+    font-weight: 550;
+    font-family: sans-serif;
+    color: gray;
+    text-decoration: none;
+}
+
+.container3-RW a:hover{
+    font-weight: 550;
+    font-family: sans-serif;
+    color: black;  
+}
+
+.container3-RW h3{
+    color: black;
+    font-size: 15px;
+}
+
+#Sobre-Nosotros-RW li{
+    justify-content: left;
+}
+
+#Atención-Cliente-RW li{
+    justify-content: left;
+}
+
+#Title-1{
+    font-size: 20px;
+}
+
+.IMG-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.IMG-1 img{
+    width: 150px;
+    margin-left: 20px;
+}
+
+.Text-IMG-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px 200px;
 }
