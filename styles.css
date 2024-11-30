@@ -491,6 +491,8 @@ h3{
     top: 1;
     left: 0;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     font-size: 13.8px;
     color: white;
     display: flex;
@@ -525,7 +527,6 @@ h3{
 #Botones-RW{
     display: flex;
     flex-direction: row;
-    text-align: center;
 }
 
 .container3-RW{
@@ -637,4 +638,71 @@ h3{
     flex-direction: row;
     justify-content: space-around;
     margin: 0px 200px;
+}
+
+#SBRW{
+    width: 300px;
+    margin-bottom: -20px;
+    margin-top: 150px;
+}
+
+#sub-container1-RW p{
+    font-size: 35px;
+    font-family: "SODO Sans", sans-serif, Arial, Helvetica;
+    margin-bottom: 30px;
+}
+
+#Inicia-Sesion-button
+{
+    background: linear-gradient(0deg, rgb(29, 57, 50) 0%, rgb(10, 105, 75) 100%);
+    width: 7vw;
+    height: 4vh;
+    margin-right: 50px;
+    border-radius: 50px;
+    border-color: white;
+}
+
+#Inicia-Sesion-link
+{
+    color: white;
+}
+
+#Inicia-Sesion-button:hover
+{
+    background: linear-gradient(0deg, rgb(29, 57, 50) 0%, rgb(10, 105, 75) 100%);
+    width: 7vw;
+    height: 4vh;
+    margin: auto;
+    border-radius: 50px;
+    border-color: rgba(120, 203, 120, 0.679);
+}
+
+#Inicia-Sesion-link:hover
+{
+    color: rgba(120, 203, 120, 0.679);
+}
+
+#Unete-button
+{
+    background-color: white;
+    width: 7vw;
+    height: 4vh;
+    margin: auto;
+    border-radius: 50px;
+    border-color: white;
+}
+
+#Unete-link
+{
+    color: linear-gradient(0deg, rgb(29, 57, 50) 0%, rgb(10, 105, 75) 100%);
+}
+
+#Unete-link:hover
+{
+    color: linear-gradient(0deg, rgb(29, 57, 50) 0%, rgb(10, 105, 75) 100%);
+}
+
+#Left-Hand{
+    width: 250px;
+    margin-left: 400px;
 }
