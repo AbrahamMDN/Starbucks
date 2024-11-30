@@ -706,3 +706,12 @@ h3{
     width: 250px;
     margin-left: 400px;
 }
+
+#Title-2{
+    font-size: 18px;
+}
+
+.bi-star-fill{
+    color: rgba(190, 167, 35, 0.764);
+    font-size: 25px;
+}
