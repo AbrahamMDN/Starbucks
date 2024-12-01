@@ -537,6 +537,7 @@ h3{
     margin-bottom:50px ;  
     justify-content:left;
     align-items: left;
+    text-align: left;
     margin-left: 3vw;
     box-shadow: 0px -6px 5px -5px rgba(0, 0, 0, 0.3);
 }
@@ -713,11 +714,6 @@ h3{
     font-size: 19px;
 }
 
-.bi-star-fill{
-    color: rgba(190, 167, 35, 0.764);
-    font-size: 25px;
-}
-
 .container-IMG-1-G{
     width: calc(100vw - 30vw);
     justify-content: center;
@@ -761,6 +757,7 @@ h3{
     display: flex;
     flex-direction: row;
     justify-content: left;
+    text-align: left;
 }
 
 .Paso-1 img, .Paso-3 img{
@@ -791,6 +788,7 @@ h3{
     width: 2vw;
     height: 4vh;
     margin-left: 150px;
+    text-align: center;
 }
 
 .container-Video{
@@ -801,4 +799,67 @@ iframe{
     width: calc(100vw - 43vw);
     height: calc(100vh - 43vh);;
     margin-left: -120px;
+}
+
+.container-IMG-1-G-2{
+    width: calc(100vw - 30vw);
+    justify-content: center;
+    background-color: rgb(241, 240, 235);
+    padding-bottom: 40px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+#Star{
+    width: 50px;
+    height: 40px;
+    margin-right: -20px;
+}
+
+#Star0{
+    width: 35px;
+    height: 25px;
+    margin-right: -20px;
+}
+
+.container-IMG-1-G-2 img{
+    width: 70px;
+    height: 120px;
+    padding-bottom: 70px;
+}
+
+.IMG-1-G-2, .IMG-1-G-2-G{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    margin: 0px 200px;
+    text-align: left;
+}
+
+.IMG-1-G-2-G img{
+    width: 350px;
+    height: auto;
+}
+
+#Title-6{
+    font-size: 18px;
+}
+
+#Title-7{
+    font-size: 17px;
+    text-align: left;
+}
+
+.SB-Card{
+    display: flex;
+    flex-direction: column;
+}
+
+#Sub-7{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: -10px;
+    text-align: left;
 }
