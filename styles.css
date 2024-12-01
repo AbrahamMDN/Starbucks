@@ -893,3 +893,47 @@ iframe{
     margin: 0px 300px;
     margin-bottom: 20px;
 }
+
+.container-IMG-1-G-3{
+    width: calc(100vw - 30vw);
+    justify-content: left;
+    background-color: rgb(241, 240, 235);
+    padding-bottom: 60px;
+    font-weight: 600;
+    margin-top: -10px;
+    color: black;
+}
+
+#Question{
+    width: 350px;
+    margin-top: 40px;
+    margin-left: -40px;
+}
+
+.Conoce-mas{
+    text-align: left;
+    justify-content: left;
+    margin-left: -150px;
+    margin-top: 40px;
+}
+
+#Sub-7-G{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.Conoce-mas a{
+    font-weight: 400;
+    text-decoration:underline;
+    color: #03482a;
+}
+
+.Conoce-mas a:hover{
+    font-weight: 400;
+    text-decoration:underline;
+    text-decoration-color: white;
+    color: #03482a;
+}
