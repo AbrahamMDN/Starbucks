@@ -545,6 +545,7 @@ h3{
 .container-IMG-1{
     width: calc(100vw - 30vw);
     justify-content: center;
+    color: black;
 }
 
 .linea-horizontal-RW{
@@ -720,6 +721,7 @@ h3{
     background-color: rgb(241, 240, 235);
     padding-bottom: 40px;
     font-weight: 600;
+    color: black;
 }
 
 .container-IMG-1-G p{
@@ -739,6 +741,7 @@ h3{
     justify-content: center;
     padding-bottom: 40px;
     font-weight: 600;
+    color: black;
 }
 
 #Title-5{
@@ -808,6 +811,7 @@ iframe{
     padding-bottom: 40px;
     font-weight: 600;
     margin-top: -10px;
+    color: black;
 }
 
 #Star{
@@ -862,4 +866,30 @@ iframe{
     font-weight: 500;
     margin-top: -10px;
     text-align: left;
+}
+
+.container-IMG-1-W-3{
+    width: calc(100vw - 30vw);
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 40px;
+    font-weight: 600;
+    color: black;
+}
+
+#Benef{
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#Pan{
+    width: 250px;
+}
+
+.IMG-1-W-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px 300px;
+    margin-bottom: 20px;
 }
