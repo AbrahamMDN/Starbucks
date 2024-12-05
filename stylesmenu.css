@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Redressed&family=Varela+Round&display=swap');
 
-/*Diseño Pagina Index*/
+/*Diseño Pagina Menu*/
 body{
     display:flex;
     flex-direction: column;
@@ -135,7 +135,7 @@ a:hover
 
 /*IMDB*/
 
-/* Contenedor principal */
+/* Sección principal */
 .Menu{
     display: flex;
     flex-direction: column;
@@ -148,30 +148,32 @@ a:hover
     text-align: left;
     align-items: flex-start;
     justify-content: center;
+    margin-bottom: 50px;
+    font-family: "SoDo Sans", Helvetica, Arial, sans-serif;
 
 }
 
-/* Texto */
-
-#Disfruta{
+#Disfruta, .Menu h3{
     font-size: 19px;
     padding: 0;
     margin: 0;
     text-align: left;
     width: 100%;
+    font-weight: 550
 }
 
 #Conoce{
-    font-size: 28px;
+    font-size: 30px;
     max-width: 700px;
     text-transform: none;
     padding: 0;
-    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 0;
     text-align: left;
     width: 100%;
+    font-weight: 700;
 }
 
-/* Líneas */
 .parallel{
     display: flex;
     border-top: 1px solid #999999;
@@ -189,33 +191,40 @@ a:hover
 
 }
 
-/* Productos */
-
-/* Tipos */
-.Menu h3{
-    padding: 0;
-    margin: 0;
-    width: 100%;
-}
-
-/* Círculo */
 .producto{
-    display: flex;   /* Permite que el span se comporte como bloque */
+    display: flex;  
     width: 170px;
     height: 170px;
     background-color: #1e3932;
     border-radius: 50%;
+    border-style:solid;
+    border-width:thick;
+    border-color: #1e3932;
     justify-content: center;
     align-items: center;
     padding: 0;
     margin: 0;
 }
 
-/* Img */
+.producto:hover{
+    display: flex;  
+    width: 170px;
+    height: 170px;
+    background-color: #1e3932;
+    border-radius: 50%;
+    border-style:solid;
+    border-width:thick;
+    border-color: rgba(255, 255, 255, 0.749);
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
 .Menu img {
-    height: 100%; /* Todo el círculo */
-    width: 100%; /* Todo el círculo */
-    object-fit: cover; /* No se distorsiona */
+    height: 100%; 
+    width: 100%; 
+    object-fit: cover;
 }
 
 /* Texto */
