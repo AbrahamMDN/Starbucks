@@ -46,5 +46,5 @@ Se presentan los enlaces al proyecto, tanto al repositorio en línea como a la p
 - Repositorio en Github:
 [Repositorio RewardsPage Starbucks](https://github.com/AbrahamMDN/Starbucks.git)
 - Página en GitHub Pages:
-[Rewardspage Starbucks](https://abrahammdn.github.io/Starbucks/rewards.html)
+[RewardsPage Starbucks](https://abrahammdn.github.io/Starbucks/rewards.html)
 ---

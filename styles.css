@@ -831,7 +831,7 @@ iframe{
 .container-IMG-1-G-2 img{
     width: 70px;
     height: 120px;
-    padding-bottom: 70px;
+    padding-bottom: 0px;
 }
 
 .IMG-1-G-2, .IMG-1-G-2-G{
