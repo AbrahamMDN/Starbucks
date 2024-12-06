@@ -133,8 +133,6 @@ a:hover
     color: white;
 }
 
-/*IMDB*/
-
 /* Sección principal */
 .Menu{
     display: flex;
@@ -227,7 +225,6 @@ a:hover
     object-fit: cover;
 }
 
-/* Texto */
 .Menu a {
     display: flex;
     flex-direction: column;
@@ -238,7 +235,7 @@ a:hover
 }
 
 .Tipo{
-    display: grid; /* Activa grid layout */
+    display: grid; 
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     justify-items: center;
@@ -246,10 +243,8 @@ a:hover
     justify-content: center;
 }
 
-/*IMDB*/
-
 .container3{
-    width: 75vw;
+    width: 100vw;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -341,15 +336,19 @@ h3{
     font-weight: 500;
 }
 
+#Atención-Cliente h3{
+    margin-left: 2.5vw;
+}
+
 .container3 a{
-    font-weight: 550;
+    font-weight: 500;
     font-family: sans-serif;
     color: gray;
     text-decoration: none;  
 }
 
 .container3 a:hover{
-    font-weight: 550;
+    font-weight: 500;
     font-family: sans-serif;
     color: black;  
 }
@@ -432,4 +431,14 @@ h3{
     margin-left: 10%;
     color: gray;
     margin-top: 0%;
+}
+
+#Sobre-Nosotros{
+    margin-left: 8vw;
+    margin-top: 2vw;
+}
+
+#Atención-Cliente{
+    margin-top: 2vw;
+    width: 20vw;
 }
