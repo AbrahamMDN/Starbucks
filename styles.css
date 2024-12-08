@@ -724,7 +724,8 @@ h3{
 
 #Left-Hand{
     width: 250px;
-    margin-left: 400px;
+    align-items: end;
+    justify-content: right;
 }
 
 #Title-2{
@@ -816,7 +817,7 @@ h3{
 
 iframe{
     width: calc(100vw - 43vw);
-    height: calc(100vh - 43vh);;
+    height: calc(100vh - 43vh);
     margin-left: -120px;
 }
 
@@ -981,15 +982,15 @@ iframe{
         display: none;
     }
 
-    .Avisos{
+    .Avisos, .Avisos-RW{
         flex-wrap: wrap;
     }
 
-    .Avisos p{
+    .Avisos p, .Avisos-RW p{
         margin: 0 2vw;
     }
-
-    .container3 ul{
+  
+    .container3 ul, .container3-RW ul{
         display: none;
     }
 
@@ -1026,5 +1027,103 @@ iframe{
 
     #sub-container2 img{
         width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    
+    .BodyRW{
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .navbarRW, .HeaderRW{
+        width: 100%;
+        padding-left:0vw;
+    }
+    
+    .container2-RW, .container-IMG-1-G, .container-IMG-1-W, .container-IMG-1-G-2, .container-IMG-1-W-3, .container-IMG-1-G-3{
+        display: flex;
+        flex: column;
+        max-width: 600px;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    #sub-container1-RW{
+        max-width: 600px;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom:30px;
+        height: auto;
+        position:static;
+    }
+
+    #sub-container2-RW{
+        max-width: 600px;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom:30px;
+        justify-content: center;
+        height: auto;
+    }
+
+    .container-IMG-1, .IMG-1, .IMG-1-W-3{
+        display: flex;
+        flex: column;
+        flex-wrap: wrap;
+    }
+
+    .Text-IMG-1 p{
+        margin: 0 10px;
+        width: 100%;
+    }
+
+    .container-IMG-1-G p{
+        width: 50vw;
+    }
+
+    .Pasos-IMG{
+        width: 100%;
+        margin: 0 80px;
+    }
+
+    .IMG-1-W{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        text-align: left;
+    }
+
+    #Uno, #Tres, #Dos{
+        object-fit: cover;
+    }
+
+    .container-video{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .IMG-1-G-2, .IMG-1-G-2-G{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Question{
+        margin-left: -200px;
+    }
+    
+    .Conoce-mas{
+        margin-left: -200px;
+    }
+
+    .container3-RW{
+        margin-bottom: -500px;
+    }
+
+    .iframe{
+        width: 100%;
+        margin-left: 0;
     }
 }
