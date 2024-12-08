@@ -443,9 +443,62 @@ h3{
     width: 20vw;
 }
 
-@media (max-width: 480px) {
-    .navbar{
-        flex-direction: column;
+@media (max-width: 600px) {
+    /* Hacer la sección de productos en dos columnas */
+    body{
+        max-width: 600px;
+        width: 100%;
     }
     
+    .navbar, .header{
+        width: 100%;
+        padding-left: 0vw;
+    }
+
+    .Tipo {
+        display: grid; /* Usar grid para las columnas */
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual tamaño */
+        gap: 5vw; /* Espacio entre las columnas */
+        justify-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .parallel{
+        display: flex;
+        border-top: 1px solid #999999;
+        width: 100%;
+        padding: 0;
+    }
+
+    .tienda-acceso, #Recomplink, #text-right{
+        display: none;
+    }
+
+    .Avisos{
+        flex-wrap: wrap;
+    }
+
+    .Avisos p{
+        margin: 0 2vw;
+    }
+
+    .container3 ul{
+        display: none;
+    }
+
+    .container3, .linea-horizontal{
+        width: 100%;
+    }
+
+    .producto{
+        width: 120px;
+        height: auto;
+    }
+
+    .producto:hover{
+        width: 120px;
+        height: auto;
+    }
 }
