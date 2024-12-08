@@ -65,7 +65,7 @@ A continuación, se presentan los commits finales para las estructuras de progra
 - Estructura HTML: 
 [menu.html](https://github.com/AbrahamMDN/Starbucks/commit/a0db1df0b9aa13be1cab38d419a4cf5898457269#diff-d15d64a0ddc167dc18807860104ed3785a0748ead393c4b573f6327d2706372b)
 - Archivo CSS para index.html y rewards.html
-[styles.css]
+[styles.css](https://github.com/AbrahamMDN/Starbucks/commit/51396590630d4db02cb7b2cfc03aa5bf19ad20d4#diff-380b7b38760dd442e897eb0164c58f6a17da966ccaca6318017a468c163979b1)
 
 ### **Enlaces**
 Se presentan los enlaces al proyecto MenuPage, tanto al repositorio en línea como a la página web creada. También, se anexan los enlaces a la Homepage y a la RewardsPage en su versión responsiva final. 
@@ -74,6 +74,6 @@ Se presentan los enlaces al proyecto MenuPage, tanto al repositorio en línea co
 - Página en GitHub Pages:
 [MenuPage Starbucks](https://abrahammdn.github.io/Starbucks/menu.html)
 - Página Responsiva en GitHub Pages para Homepage:
-[]
+[HomePage Starbucks](https://abrahammdn.github.io/Starbucks/index.html)
 -Página Responsiva en GitHub Pages para RewardsPage:
-[]
+[RewardsPage Starbucks](https://abrahammdn.github.io/Starbucks/rewards.html)
