@@ -75,5 +75,5 @@ Se presentan los enlaces al proyecto MenuPage, tanto al repositorio en línea co
 [MenuPage Starbucks](https://abrahammdn.github.io/Starbucks/menu.html)
 - Página Responsiva en GitHub Pages para Homepage:
 [HomePage Starbucks](https://abrahammdn.github.io/Starbucks/index.html)
--Página Responsiva en GitHub Pages para RewardsPage:
+- Página Responsiva en GitHub Pages para RewardsPage:
 [RewardsPage Starbucks](https://abrahammdn.github.io/Starbucks/rewards.html)
