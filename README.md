@@ -61,9 +61,9 @@ Continuando con este proyecto, se desarrolló una página web idéntica al Menup
 ### **Código**
 A continuación, se presentan los commits finales para las estructuras de programación desarrolladas para el MenuPage y para el archivo CSS asociado a las versiones responsivas finales de los archivos index.html y rewards.html. 
 - Estructura CSS:
-[stylesmenu.css]
+[stylesmenu.css](https://github.com/AbrahamMDN/Starbucks/commit/a0db1df0b9aa13be1cab38d419a4cf5898457269#diff-a3a9ba302736e645cbffe79d507f73d1fc23ed564f9a5432063b8af22048b833)
 - Estructura HTML: 
-[menu.html]
+[menu.html](https://github.com/AbrahamMDN/Starbucks/commit/a0db1df0b9aa13be1cab38d419a4cf5898457269#diff-d15d64a0ddc167dc18807860104ed3785a0748ead393c4b573f6327d2706372b)
 - Archivo CSS para index.html y rewards.html
 [styles.css]
 
