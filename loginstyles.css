@@ -150,7 +150,7 @@ a:hover
     margin-bottom:30px;  
     justify-content: center;
     align-items: center;
-    margin-top: 75px;
+    margin-top: 70px;
     height: calc(100vh - 50px);
     
 }
@@ -178,4 +178,111 @@ a:hover
     font-family: "SODO Sans", sans-serif, Arial, Helvetica;
     font-weight: bold;
     margin-right: 10px;
+}
+
+#sub-container2-Lg{
+    align-items: center;
+    text-align: center;
+    font-size: 13.8px;
+    color: #04204b;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100vh;
+    margin-left: 42vw;
+    margin-top: 75px;
+    width: calc(100vw- 40vw); 
+    margin-right: 0;
+}
+
+.container-IMG-1-G{
+    width: calc(100vw - 42vw); 
+    justify-content: center;
+    background-color: rgb(241, 240, 235);
+    padding: 40px 0;
+    font-weight: 600;
+    color: black;
+}
+
+.formulario{
+    padding-top: 30px;
+    justify-content: left;
+    text-align: center;
+    width: 400px;
+    margin-left: 250px;
+}
+
+.formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .username{
+    position: relative;
+    border-bottom: 2px solid #6c757d45;
+    margin: 30px 0;
+    border-width: thin;
+}
+
+.username input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.username label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #6c757d;
+    font-size: 16px;
+    font-weight: bold;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: .5s;
+}
+
+.username span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #008247;
+}
+
+.username input:focus ~ label,
+.username input:focus ~ label{
+    top: -5px;
+    color:#008247;
+}
+
+.username input:focus ~ span::before,
+.username input:focus ~ span::before{
+    width: 100%;
+}
+
+#boton-contra{
+    margin: -5px 0 20px 5px;
+    color: #008247;
+    cursor: pointer;
+    border: 1px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#boton-contra:hover{
+    margin: -5px 0 20px 5px;
+    color: #008247;
+    cursor: pointer;
+    border: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #15db82;
+    border-radius: 25px;
 }
