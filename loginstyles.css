@@ -326,6 +326,7 @@ h2{
     font-weight: 600;
     color: black;
     padding: 15px 0;
+    margin-bottom: 10px;
 }
 
 h3{
@@ -382,4 +383,192 @@ h3{
     font-weight: bold;
     border-color: #008248;
     transition: .5s;
+}
+
+.container3-RW{
+    width: calc(100vw - 42vw);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin-bottom:50px ;  
+    justify-content:left;
+    align-items: left;
+    text-align: left;
+    margin-left: 0vw;
+    box-shadow: 0px -6px 5px -5px rgba(0, 0, 0, 0.3);
+}
+
+.linea-horizontal-RW{
+    display: flex;
+    border-top: 1px solid #e8eaee;
+    width: calc(100vw - 42vw);  
+    margin-bottom: 13px;
+}
+
+.Redes-Sociales-RW{
+    display: flex;
+    flex-direction: row;
+    width: calc(100vw - 42vw); 
+    justify-content:center;
+    margin-bottom:30px ;
+    align-items: center;
+}
+
+.Avisos-RW{
+    display: flex;
+    flex-direction: row;
+    width: calc(100vw - 42vw);  
+    justify-content: center;
+    margin-bottom:30px ; 
+    align-items: center;
+}
+
+.Avisos-RW a{
+    font-weight: 100;
+    color: gray;
+    margin: 1%
+}
+
+.Avisos-RW p{
+    color: gray;
+}
+
+#footer1-RW{
+    font-size: 10px;
+    color: gray;
+    width: calc(100vw - 42vw);  
+}
+
+.footer-RW{
+    width: calc(100vw - 42vw); 
+    margin: 0;
+}
+
+.container3-RW a{
+    font-weight: 550;
+    font-family: sans-serif;
+    color: gray;
+    text-decoration: none;
+}
+
+.container3-RW a:hover{
+    font-weight: 550;
+    font-family: sans-serif;
+    color: black;  
+}
+
+.container3-RW h3{
+    color: black;
+    font-size: 15px;
+}
+
+#Sobre-Nosotros-RW li, #Atención-Cliente-RW li{
+    justify-content: left;
+}
+
+.bi-facebook{
+    margin-right: 30px;
+    font-size: 30px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.bi-instagram{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-right: 30px;
+}
+
+.bi-twitter-x{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-right: 30px;
+}
+
+.bi-youtube{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-right: 30px;
+}
+
+ul{
+    list-style: none;
+}
+
+.container3-RW h3{
+    margin-left: 21%;
+    font-size: 105%;
+    font-weight: 500;
+}
+
+.bi-instagram:hover {
+    background-color: #00000053;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-right: 30px;
+}
+
+.bi-facebook:hover {
+    background-color: white;
+    margin-right: 30px;
+    font-size: 30px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    color:#00000053;
+    ;
+}
+
+.bi-twitter-x:hover {
+    background-color: #00000053;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-right: 30px;
+}
+
+.bi-youtube:hover {
+    background-color: #00000053;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-right: 30px;
 }
