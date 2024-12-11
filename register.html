@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="loginstyles.css">
+    <link rel="stylesheet" href="registerstyles.css">
     <link rel="icon" href="https://upload.wikimedia.org/wikipedia/sco/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1017px-Starbucks_Corporation_Logo_2011.svg.png">
-    <title>Starbucks | Inicia Sesión</title>
+    <title>Starbucks | Registro</title>
     <!--Añado Biblioteca Bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
@@ -24,7 +24,7 @@
                     <a href="https://www.starbucks.com.mx/stores"><img id="ubi" src="https://cdn.icon-icons.com/icons2/622/PNG/512/facebook-placeholder-for-locate-places-on-maps_icon-icons.com_57151.png" alt="ubicación"></a>
                     <a id="text-left-2" href="https://www.starbucks.com.mx/stores">LOCALIZA TU TIENDA</a>
                     <button id="login-button">
-                        <a href="https://rewards.starbucks.mx/login">Inicia Sesión</a>
+                        <a href="./login.html">Inicia Sesión</a>
                     </button>
                     <button id="register-button">
                         <a id="únete-link" href="https://rewards.starbucks.mx/register">Únete Ahora</a>
@@ -36,27 +36,93 @@
     <section class="container2-Lg">
         <!--Contenedor Fijo-->
             <section id="sub-container1-Lg">
-                <p>Ingresa a tu cuenta</p>
-                <img id="Star0" src="https://i.postimg.cc/5tbNgMGP/star.png" alt="estrellaSB">
+                <p>Registro</p>
             </section>
         <!--Contenedor Scrolleable-->
             <section id="sub-container2-Lg">
                 <!--Sub-Contenedor IZQ 1-->
                 <section class="container-IMG-1-G">
+                    <p id="Title-Rg"><b>Información personal</b> (*) campos obligatorios</p>
+                    <p>¡Regístrate y comienza a vivir la experiencia Starbucks <br>Rewards™!</p>
                     <section class="formulario">
                         <form method="post">
                             <section class="username">
                                 <input type="text" required>
-                                <label>Ingresa tu email</label>
+                                <label>Nombre(s)*</label>
+                            </section>
+                            <section class="username">
+                                <input type="text" required>
+                                <label>Apellido Paterno*</label>
+                            </section>
+                            <section class="username">
+                                <input type="text" required>
+                                <label>Email*</label>
+                            </section>
+                            <section class="username">
+                                <input type="text" required>
+                                <label>Confirmar Email*</label>
                             </section>
                             <section class="username">
                                 <input type="password" required>
-                                <label>Ingresa tu contraseña</label>
+                                <label>Contraseña*</label>
                             </section>
-                            <section class="recordar">
-                                <button id="boton-contra">
-                                    Olvidé mi contraseña
-                                </button>
+                            <section class="username">
+                                <input type="password" required>
+                                <label>Confirmar Contraseña*</label>
+                            </section>
+                            <!--Contenido Interno-->
+                            <p id="Fecha-Nac">Fecha de Nacimiento <b>(Opcional)</b></p>
+                            <p id="Promo">Agrega tu fecha de cumpleaños para otorgarte una bebida gratis en el mes de tu cumpleaños</p>
+                            <section class="Cumpleaños-Date">
+                                <select class="form-select form-select-sm" aria-label="Small select example">
+                                    <option selected>Mes</option>
+                                    <option value="1">Enero</option>
+                                    <option value="2">Febrero</option>
+                                    <option value="3">Marzo</option>
+                                    <option value="3">Abril</option>
+                                    <option value="3">Mayo</option>
+                                    <option value="3">Junio</option>
+                                    <option value="3">Julio</option>
+                                    <option value="3">Agosto</option>
+                                    <option value="3">Septiembre</option>
+                                    <option value="3">Octubre</option>
+                                    <option value="3">Noviembre</option>
+                                    <option value="3">Diciembre</option>
+                                </select>
+                                <select class="form-select form-select-sm" aria-label="Small select example">
+                                    <option selected>Día</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="3">4</option>
+                                    <option value="3">5</option>
+                                    <option value="3">6</option>
+                                    <option value="3">7</option>
+                                    <option value="3">8</option>
+                                    <option value="3">9</option>
+                                    <option value="3">10</option>
+                                    <option value="3">11</option>
+                                    <option value="3">12</option>
+                                    <option value="3">13</option>
+                                    <option value="3">14</option>
+                                    <option value="3">15</option>
+                                    <option value="3">16</option>
+                                    <option value="3">17</option>
+                                    <option value="3">18</option>
+                                    <option value="3">19</option>
+                                    <option value="3">20</option>
+                                    <option value="3">21</option>
+                                    <option value="3">22</option>
+                                    <option value="3">23</option>
+                                    <option value="3">24</option>
+                                    <option value="3">25</option>
+                                    <option value="3">26</option>
+                                    <option value="3">27</option>
+                                    <option value="3">28</option>
+                                    <option value="3">29</option>
+                                    <option value="3">30</option>
+                                    <option value="3">31</option>
+                                </select>
                             </section>
                             <input type="submit" value="Iniciar Sesión">
                         </form>
