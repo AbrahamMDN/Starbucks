@@ -176,7 +176,7 @@ a:hover
 #sub-container1-Lg p{
     font-size: 32px;
     font-family: "SODO Sans", sans-serif, Arial, Helvetica;
-    font-weight: bold;
+    font-weight: bolder;
     margin-right: 10px;
 }
 
@@ -205,7 +205,7 @@ a:hover
 }
 
 .formulario{
-    padding-top: 30px;
+    padding-top: 0;
     justify-content: left;
     text-align: center;
     width: 400px;
@@ -269,20 +269,103 @@ form .username{
 
 #boton-contra{
     margin: -5px 0 20px 5px;
-    color: #008247;
+    color: rgb(10, 105, 75);
     cursor: pointer;
     border: 1px;
     font-size: 14px;
     font-weight: bold;
+    border-radius: 50px;
+    width: 200px;
+    height: 30px;
 }
 
 #boton-contra:hover{
     margin: -5px 0 20px 5px;
-    color: #008247;
+    color: green;
     cursor: pointer;
     border: 1px;
     font-size: 14px;
     font-weight: bold;
-    background-color: #15db82;
+    background-color: #b5dccbe9;
+    border-radius: 50px;
+    width: 200px;
+    height: 30px;
+    transition: .5s;
+}
+
+input[type="submit"]{
+    width: 50%;
+    height: 50px;
+    border: 1px solid;
+    background: #00a862;
     border-radius: 25px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.651);
+    border-color: #00a862;
+}
+
+.container-IMG-1-B{
+    width: calc(100vw - 42vw); 
+    justify-content: center;
+    background-color: #2d2926;
+    font-weight: 600;
+    color: white;
+}
+
+h2{
+    font-size: 18px;
+}
+
+.container-IMG-1-W{
+    width: calc(100vw - 42vw); 
+    justify-content: center;
+    background-color: white;
+    font-weight: 600;
+    color: black;
+    padding: 15px 0;
+}
+
+h3{
+    font-size: 22px;
+    font-weight:600;
+    margin-bottom: -15px;
+}
+
+.container-IMG-1-W p{
+    text-align: left;
+    font-size: 18px;
+    font-weight:500;
+    margin-left: 180px;
+}
+
+#Únete-B{
+    width: 180px;
+    height: 50px;
+    border: 1px solid;
+    background: white;
+    border-radius: 25px;
+    font-size: 21px;
+    color: #008248;
+    cursor: pointer;
+    font-weight: bold;
+    border-color: #008248;
+}
+
+#Link-Unete{
+    color: #008248;
+}
+
+.Unete-IMG{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 150px;
+}
+
+.Chica-SB-Lg img{
+    width: 250px;
 }
