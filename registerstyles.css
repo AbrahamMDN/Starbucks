@@ -662,9 +662,24 @@ ul{
 .form-check{
     font-size: 13px;
     font-weight: 500;
-    color:#6c757d
+    color:#6c757d;
 }
 
-input[type="radio"]{
-    background-color: #008247;
+/* Estilo para el radio button */
+.form-check-input{
+    width: 22px; 
+    height: 20px; 
+    background-color: rgb(241, 240, 235); 
+    border: 2px solid #6c757d; 
+    border-radius: 50%; 
+    cursor: pointer; 
+    appearance: none;
 }
+
+.form-check-input:checked {
+    background-color: #00a862;
+    border-color: #6c757d;
+    box-shadow: 0 0 10px #00a862;
+    transition: box-shadow 0.5s ease;
+}
+
