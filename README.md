@@ -103,8 +103,8 @@ Por último, se presentan los enlaces del repositorio en línea y de GitHub Page
 - Repositorio en Github:
 [Repositorio LoginPage y RegisterPage Starbucks](https://github.com/AbrahamMDN/Starbucks.git)
 - Página Responsiva en GitHub Pages para LoginPage:
-[HomePage Starbucks](https://abrahammdn.github.io/Starbucks/login.html)
+[LoginPage Starbucks](https://abrahammdn.github.io/Starbucks/login.html)
 - Página Responsiva en GitHub Pages para RegisterPage:
-[RewardsPage Starbucks](https://abrahammdn.github.io/Starbucks/register.html)
+[RegisterPage Starbucks](https://abrahammdn.github.io/Starbucks/register.html)
 - Sitio en GitHub Pages para Proyecto Final:
-[GitHub Pages Starbucks](https://abrahammdn.github.io/Starbucks/menu.html)
+[GitHub Pages Starbucks](https://abrahammdn.github.io/Starbucks/)

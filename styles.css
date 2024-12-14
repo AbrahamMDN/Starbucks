@@ -521,6 +521,7 @@ h3{
 }
 
 #sub-container2-RW{
+    align-items: center;
     text-align: center;
     font-size: 13.8px;
     color: #04204b;
@@ -528,9 +529,9 @@ h3{
     flex-direction: column;
     background-color: white;
     height: 100vh;
-    margin-left: 49vw;
+    margin-left: 42vw;
     margin-top: 75px;
-    width: calc(100vw - 25vw); /* Ocupa el espacio restante */
+    width: calc(100vw - 40vw);
     margin-right: 0;
 }
 
@@ -546,7 +547,7 @@ h3{
 }
 
 .container3-RW{
-    width: calc(100vw - 35vw);
+    width: calc(100vw - 40vw);
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -554,12 +555,12 @@ h3{
     justify-content:left;
     align-items: left;
     text-align: left;
-    margin-left: 4vw;
+    margin-left: 0vw;
     box-shadow: 0px -6px 5px -5px rgba(0, 0, 0, 0.3);
 }
 
 .container-IMG-1{
-    width: calc(100vw - 30vw);
+    width: calc(100vw - 40vw);
     justify-content: center;
     color: black;
 }
@@ -567,14 +568,14 @@ h3{
 .linea-horizontal-RW{
     display: flex;
     border-top: 1px solid #e8eaee;
-    width: calc(100vw - 35vw);
+    width: calc(100vw - 40vw);
     margin-bottom: 13px;
 }
 
 .Redes-Sociales-RW{
     display: flex;
     flex-direction: row;
-    width: calc(100vw - 30vw);
+    width: calc(100vw - 40vw);
     justify-content:center;
     margin-bottom:30px ;
     align-items: center;
@@ -583,7 +584,7 @@ h3{
 .Avisos-RW{
     display: flex;
     flex-direction: row;
-    width: calc(100vw - 30vw);
+    width: calc(100vw - 40vw);
     justify-content: center;
     margin-bottom:30px ; 
     align-items: center;
@@ -602,11 +603,11 @@ h3{
 #footer1-RW{
     font-size: 10px;
     color: gray;
-    width: calc(100vw - 30vw);
+    width: calc(100vw - 40vw);
 }
 
 .footer-RW{
-    width: calc(100vw - 50vw);
+    width: calc(100vw - 40vw);
     margin: 0;
 }
 
@@ -648,14 +649,14 @@ h3{
 
 .IMG-1 img{
     width: 150px;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
 .Text-IMG-1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 0px 200px;
+    margin: 0px 100px;
     font-weight: 500;
     font-size: 15px;
 }
@@ -733,7 +734,7 @@ h3{
 }
 
 .container-IMG-1-G{
-    width: calc(100vw - 30vw);
+    width: calc(100vw - 40vw);
     justify-content: center;
     background-color: rgb(241, 240, 235);
     padding-bottom: 40px;
@@ -754,7 +755,7 @@ h3{
 }
 
 .container-IMG-1-W{
-    width: calc(100vw - 30vw);
+    width: calc(100vw - 40vw);
     justify-content: center;
     padding-bottom: 40px;
     font-weight: 600;
@@ -797,7 +798,7 @@ h3{
 
 .Pasos-IMG img{
     width: 250px;
-    margin-left: 40px;
+    margin-left: 0px;
     margin-top: 120px;
 }
 
@@ -816,14 +817,14 @@ h3{
 }
 
 iframe{
-    width: calc(100vw - 43vw);
+    width: calc(100vw - 40vw);
     height: calc(100vh - 43vh);
     margin-left: -120px;
 }
 
 .container-IMG-1-G-2{
-    width: calc(100vw - 30vw);
-    justify-content: center;
+    width: calc(100vw - 40vw);
+    justify-content: space-around;
     background-color: rgb(241, 240, 235);
     padding-bottom: 40px;
     font-weight: 600;
@@ -849,13 +850,23 @@ iframe{
     padding-bottom: 0px;
 }
 
-.IMG-1-G-2, .IMG-1-G-2-G{
+.IMG-1-G-2{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     font-size: 15px;
-    margin: 0px 200px;
+    margin: 0px 100px;
+    text-align: left;
+}
+
+.IMG-1-G-2-G{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    margin: 0px 180px;
     text-align: left;
 }
 
@@ -886,7 +897,7 @@ iframe{
 }
 
 .container-IMG-1-W-3{
-    width: calc(100vw - 30vw);
+    width: calc(100vw - 40vw);
     justify-content: center;
     background-color: white;
     padding-bottom: 40px;
@@ -907,13 +918,13 @@ iframe{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 0px 300px;
+    margin: 0px 200px;
     margin-bottom: 20px;
 }
 
 .container-IMG-1-G-3{
-    width: calc(100vw - 30vw);
-    justify-content: left;
+    width: calc(100vw - 40vw);
+    justify-content: space-around;
     background-color: rgb(241, 240, 235);
     padding-bottom: 60px;
     font-weight: 600;
@@ -924,13 +935,13 @@ iframe{
 #Question{
     width: 350px;
     margin-top: 40px;
-    margin-left: -40px;
+    margin-left: 0px;
 }
 
 .Conoce-mas{
     text-align: left;
     justify-content: left;
-    margin-left: -150px;
+    margin-left: -80px;
     margin-top: 40px;
 }
 
