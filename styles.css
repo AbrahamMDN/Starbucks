@@ -819,7 +819,7 @@ h3{
 iframe{
     width: calc(100vw - 40vw);
     height: calc(100vh - 43vh);
-    margin-left: -120px;
+    margin-left: 0px;
 }
 
 .container-IMG-1-G-2{
@@ -1136,5 +1136,12 @@ iframe{
     .iframe{
         width: 100%;
         margin-left: 0;
+    }
+
+    .SB-Card{
+        display: flex;
+        justify-content: center;
+        margin-left: -400px;
+        text-align: center;
     }
 }
