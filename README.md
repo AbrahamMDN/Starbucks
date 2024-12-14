@@ -90,19 +90,21 @@ En la última semana del módulo se finalizó el proyecto del sitio web con la a
 ### **Código**
 A continuación, se presentan los commits finales para las estructuras de programación desarrolladas para el LoginPage y para el RegisterPage de Starbucks.  
 - Estructura CSS LoginPage:
-[stylesmenu.css](https://github.com/AbrahamMDN/Starbucks/commit/a0db1df0b9aa13be1cab38d419a4cf5898457269#diff-a3a9ba302736e645cbffe79d507f73d1fc23ed564f9a5432063b8af22048b833)
-- Estructura HTML: 
-[menu.html](https://github.com/AbrahamMDN/Starbucks/commit/a0db1df0b9aa13be1cab38d419a4cf5898457269#diff-d15d64a0ddc167dc18807860104ed3785a0748ead393c4b573f6327d2706372b)
-- Archivo CSS para index.html y rewards.html
-[styles.css](https://github.com/AbrahamMDN/Starbucks/commit/51396590630d4db02cb7b2cfc03aa5bf19ad20d4#diff-380b7b38760dd442e897eb0164c58f6a17da966ccaca6318017a468c163979b1)
+[loginstyles.css](https://github.com/AbrahamMDN/Starbucks/commit/64b7b50de8baf693152055fde4753be947d8c148#diff-5ed9fef4b81e8e02b0a040dc11f5c8b81e131030227d25adc62a0f2c3c718728)
+- Estructura CSS RegisterPage:
+[registerstyles.css](https://github.com/AbrahamMDN/Starbucks/commit/64b7b50de8baf693152055fde4753be947d8c148#diff-c80a3aa0d63550d87423e7f084b7e6ec6deaa1994a27eab8e57dd618f55051d1)
+- Estructura HTML LoginPage: 
+[login.html](https://github.com/AbrahamMDN/Starbucks/commit/64b7b50de8baf693152055fde4753be947d8c148#diff-f7df8ca1f6a5b4e55cc08d43d079af1235a1a87cf8799fe7813f42440378ef4a)
+- Estructura HTML RegisterPage: 
+[register.html](https://github.com/AbrahamMDN/Starbucks/commit/64b7b50de8baf693152055fde4753be947d8c148#diff-b501885e1f9e699b00931baae146a66ce6387ec82db6723efbbe60b1bf3632f8)
 
 ### **Enlaces**
 Por último, se presentan los enlaces del repositorio en línea y de GitHub Pages para ambas páginas desarrolladas, así como un enlace para el proyecto integrado en su versión final.
 - Repositorio en Github:
-[Repositorio MenuPage Starbucks](https://github.com/AbrahamMDN/Starbucks.git)
-- Página en GitHub Pages:
-[MenuPage Starbucks](https://abrahammdn.github.io/Starbucks/menu.html)
-- Página Responsiva en GitHub Pages para Homepage:
-[HomePage Starbucks](https://abrahammdn.github.io/Starbucks/index.html)
-- Página Responsiva en GitHub Pages para RewardsPage:
-[RewardsPage Starbucks](https://abrahammdn.github.io/Starbucks/rewards.html)
+[Repositorio LoginPage y RegisterPage Starbucks](https://github.com/AbrahamMDN/Starbucks.git)
+- Página Responsiva en GitHub Pages para LoginPage:
+[HomePage Starbucks](https://abrahammdn.github.io/Starbucks/login.html)
+- Página Responsiva en GitHub Pages para RegisterPage:
+[RewardsPage Starbucks](https://abrahammdn.github.io/Starbucks/register.html)
+- Sitio en GitHub Pages para Proyecto Final:
+[GitHub Pages Starbucks](https://abrahammdn.github.io/Starbucks/menu.html)
