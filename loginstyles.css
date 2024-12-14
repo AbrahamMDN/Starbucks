@@ -572,3 +572,81 @@ ul{
     height: 32px;
     margin-right: 30px;
 }
+
+@media (max-width: 600px) {
+    
+    .BodyLg{
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .navbarLg, .HeaderLg{
+        width: 100%;
+        padding-left:0vw;
+    }
+    
+    .container2-Lg, .container-IMG-1-G, .container-IMG-1-W, .container-IMG-1-B{
+        display: flex;
+        flex: column;
+        max-width: 600px;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0;
+        justify-content: center;
+    }
+
+    #sub-container1-Lg{
+        max-width: 600px;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom:30px;
+        height: auto;
+        position:static;
+    }
+
+    #sub-container2-Lg{
+        max-width: 600px;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom:30px;
+        justify-content: center;
+        height: auto;
+    }
+
+    .container3-RW{
+        margin-bottom: -500px;
+    }
+
+    .tienda-acceso, #Recomplink, #text-right{
+        display: none;
+    }
+
+    .Avisos-RW{
+        flex-wrap: wrap;
+    }
+
+    .Avisos-RW p{
+        margin: 0 2vw;
+    }
+  
+    .container3-RW ul{
+        display: none;
+    }
+
+    .formulario{
+        margin-left: 0px;
+    }
+
+    .Unete-IMG{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-IMG-1-W p{
+        margin-left: 0;
+    }
+
+    #Únete-B{
+        margin-bottom: 15px;
+    }
+}

@@ -77,3 +77,32 @@ Se presentan los enlaces al proyecto MenuPage, tanto al repositorio en línea co
 [HomePage Starbucks](https://abrahammdn.github.io/Starbucks/index.html)
 - Página Responsiva en GitHub Pages para RewardsPage:
 [RewardsPage Starbucks](https://abrahammdn.github.io/Starbucks/rewards.html)
+
+## **Entregables 7 y 8: LoginPage y RegisterPage de Starbucks; Proyecto Final Completo**
+En la última semana del módulo se finalizó el proyecto del sitio web con la adición de la LoginPage y la RegisterPage. Se integraron todas las funciones CSS aprendidas durante el programa y se revisó una breve introducción a lo que se vería en el tercer módulo. El cierre tuvo lugar en la séptima y octava sesión del curso, durante la cuarta y última semana del BTC.  
+
+### **Objetivos de Aprendizaje**
+- Aprender los principios del diseño responsivo a partir de Media Queries, tanto desde el punto de vista teórico como del punto de vista práctico. 
+- Comprender los fundamentos de la función Grid y entender como aplicarla para la creación de plantillas dinámicas en conjunto con Flexbox y Media Queries.
+- Completar el sitio web de Starbucks mostrando un progreso de mejora en la codificación, semántica, uso correcto de funciones y conciencia responsiva para cada una de las subpáginas del contenido. 
+- Actualizar el archivo README con el fin de reportar la totalidad de avances realizados para cada entregable y para la entrega final.
+
+### **Código**
+A continuación, se presentan los commits finales para las estructuras de programación desarrolladas para el LoginPage y para el RegisterPage de Starbucks.  
+- Estructura CSS LoginPage:
+[stylesmenu.css](https://github.com/AbrahamMDN/Starbucks/commit/a0db1df0b9aa13be1cab38d419a4cf5898457269#diff-a3a9ba302736e645cbffe79d507f73d1fc23ed564f9a5432063b8af22048b833)
+- Estructura HTML: 
+[menu.html](https://github.com/AbrahamMDN/Starbucks/commit/a0db1df0b9aa13be1cab38d419a4cf5898457269#diff-d15d64a0ddc167dc18807860104ed3785a0748ead393c4b573f6327d2706372b)
+- Archivo CSS para index.html y rewards.html
+[styles.css](https://github.com/AbrahamMDN/Starbucks/commit/51396590630d4db02cb7b2cfc03aa5bf19ad20d4#diff-380b7b38760dd442e897eb0164c58f6a17da966ccaca6318017a468c163979b1)
+
+### **Enlaces**
+Por último, se presentan los enlaces del repositorio en línea y de GitHub Pages para ambas páginas desarrolladas, así como un enlace para el proyecto integrado en su versión final.
+- Repositorio en Github:
+[Repositorio MenuPage Starbucks](https://github.com/AbrahamMDN/Starbucks.git)
+- Página en GitHub Pages:
+[MenuPage Starbucks](https://abrahammdn.github.io/Starbucks/menu.html)
+- Página Responsiva en GitHub Pages para Homepage:
+[HomePage Starbucks](https://abrahammdn.github.io/Starbucks/index.html)
+- Página Responsiva en GitHub Pages para RewardsPage:
+[RewardsPage Starbucks](https://abrahammdn.github.io/Starbucks/rewards.html)
